@@ -4,4 +4,5 @@
   
   $myfile = fopen("log.txt", "w+") or die("Unable to open file!");
   fwrite($myfile, "\xEF\xBB\xBF".$json_str);
+
  ?>
